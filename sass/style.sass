@@ -1,0 +1,157 @@
+$family: Lato
+@import url("http://fonts.googleapis.com/css?family=#{$family}")
+$box_color: #CDCDCD
+$text_color: draken($box_color,30%)
+$main_color: #FFD906
+*
+  font-family: $family, Helvetica, sans-serif
+body
+  width: 100%
+  margin: 0
+.navbar
+  background-color: $main_color
+  width: 100%
+  display: inline-block
+  font-size: 1rem
+  position: fixed
+  top: 0
+  left: 0
+  .nav
+    margin: 0
+    padding: 0
+    width: 100%
+    display: inline-block
+    ul
+      margin: 0
+      padding: 0
+      list-style-type: none
+    li
+      display: inline-block
+      width: 10%
+      padding: 15px 10px
+      text-align: center
+      color: #fff
+      cursor: pointer
+    li:hover
+      background-color: #fff
+      color: $main_color
+.logo
+  position: fixed
+  display: block
+  top: 5px
+  right: 20px
+  width: 100px
+  z-index: 1
+.field
+  display: block
+  margin-bottom: 0.5rem
+label
+  display: block
+  font-size: 0.8rem
+  line-height: 1.4rem
+  font-weight: 600
+  color: $text_color
+.submit
+  appearance: none
+  padding: 1rem 1rem
+  text-transform: uppercase
+  font-size: 0.8rem
+  background: $main_color
+  color: white
+  border: none
+  border-radius: 3px
+  margin: 1rem 0
+  cursor: pointer
+  outline: none
+.submit:hover,
+  opacity: 0.8
+.clear
+  @extend .submit
+  margin-left: 1rem
+.clear:hover
+  @extend .submit:hover
+.submitemail
+  @extend .submit
+  background-color: #fff
+  color: $main_color
+  padding: 0.2rem 0.7rem 0.2rem 0.7rem
+  font-size: 1rem
+  border-radius: 0
+.submitemail:hover
+  @extend .clear:hover
+input[type="text"],input[type="email"]
+  appearance: none
+  border: 1px solid $box_color
+  font-size: 1rem
+  padding: 0.5rem
+  min-width: 25rem
+
+input[type="text"]:focus,input[type="email"]:focus
+  outline: 2px solid $main_color
+
+.errors
+  font-size: 0.8rem
+  color: #EE0000
+  margin-top: 0.25rem
+  animation: slide-down 0.3s backwards ease-in-out
+.column
+  margin-top: 4rem
+  padding-left: 60px
+hr
+  display: block
+  height: 1px
+  border: 0
+  border-top: 1px solid $box_color
+  margin: 1em 0
+  padding: 0
+.row
+  width: 100%
+  float: left
+.form
+  margin-top: 4rem
+  width: 40%
+  float: left
+  padding-left: 75px
+  .form_box
+    float: left
+  .header
+    font-size: 1.1rem
+    margin-bottom: 1rem
+    color: $text_color
+.value
+  width: 40%
+  padding-left: 75px
+  font-size: 1rem
+  float: left
+.callapi
+  margin-top: 8rem
+  width: 50%
+  text-align: center
+  float: left
+.footer
+  position: fixed
+  text-align: center
+  width: 100%
+  background-color: $main_color
+  height: 100px
+  padding-top: 20px
+  bottom: 0
+  left: 0
+  .text
+    color: #fff
+    font-weight: 100
+    font-size: 1rem
+    width: 100%
+    padding: 10px
+.footer_column1
+  width: 49%
+  display: inline-block
+  border-right: 1px solid #fff
+.footer_column2
+  width: 50%
+  display: inline-block
+.email_input
+  @extend input[type="email"]
+  min-width: 15rem!important
+  font-size: 0.8!important
+  padding: 0.2rem 0.5rem!important

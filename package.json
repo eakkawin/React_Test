@@ -1,0 +1,49 @@
+{
+  "name": "react_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "dev": "webpack-dev-server --hot --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eakkawin/React_Test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eakkawin/React_Test/issues"
+  },
+  "homepage": "https://github.com/eakkawin/React_Test#readme",
+  "dependencies": {
+    "history": "^4.6.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-facebook-login": "^3.6.1",
+    "react-redux-form": "^1.11.1",
+    "react-router-dom": "^4.1.1",
+    "react-router-redux": "^5.0.0-alpha.6",
+    "redux": "^3.6.0",
+    "redux-form": "^6.7.0",
+    "redux-form-website-template": "0.0.41",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "css-loader": "^0.28.1",
+    "express": "^4.15.3",
+    "node-sass": "^4.5.3",
+    "react-router": "^4.1.1",
+    "react-scroll": "^1.5.2",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.17.0",
+    "superagent": "^3.5.2"
+  }
+}
