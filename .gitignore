@@ -2,4 +2,4 @@
 *.sql
 *.sqlite
 /node_modules/*
-/img
+/image
