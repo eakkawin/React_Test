@@ -4,7 +4,7 @@ var request = require('superagent');
 var app = express();
 var mailchimpInstance   = 'us16',
     listUniqueId        = '0075a6a953',
-    mailchimpApiKey     = 'ded3561b4077ae87c146a81af0330baf-us16';
+    mailchimpApiKey     = '341875556d7c209ca947173c83382c81-us16';
 var path = require('path');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
