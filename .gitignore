@@ -1,5 +1,4 @@
 *.log
 *.sql
 *.sqlite
-/node_modules/*
-/image
+/node_modules/
